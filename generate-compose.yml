@@ -1,9 +1,0 @@
----
-# ansible-playbook generate-compose.yml --extra-vars "version=$RELEASE_VERSION"
-- name: Release To Production
-  hosts: localhost
-  tasks:
-    - name: Template Compose
-      template:
-        src: "compose.yml.j2"
-        dest: "compose.yml"
