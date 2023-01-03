@@ -6,8 +6,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/SaadKhan-BCG/CarbonPlugin/carbon-monitor/carbon_emissions"
-	"github.com/SaadKhan-BCG/CarbonPlugin/carbon-monitor/container_stats"
+	"github.com/SaadKhan-BCG/CarbonMonitor/carbon_emissions"
+	"github.com/SaadKhan-BCG/CarbonMonitor/container_stats"
 	"github.com/docker/docker/client"
 	"github.com/gosuri/uilive"
 	log "github.com/sirupsen/logrus"

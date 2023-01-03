@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/SaadKhan-BCG/CarbonPlugin/carbon-monitor/carbon_emissions"
-	"github.com/SaadKhan-BCG/CarbonPlugin/carbon-monitor/container_stats"
-	errorhandler "github.com/SaadKhan-BCG/CarbonPlugin/carbon-monitor/error_handler"
+	"github.com/SaadKhan-BCG/CarbonMonitor/carbon_emissions"
+	"github.com/SaadKhan-BCG/CarbonMonitor/container_stats"
+	errorhandler "github.com/SaadKhan-BCG/CarbonMonitor/error_handler"
 	"github.com/docker/docker/api/types"
 	"github.com/docker/docker/client"
 	"github.com/gosuri/uilive"

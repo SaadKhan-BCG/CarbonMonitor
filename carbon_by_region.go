@@ -2,9 +2,10 @@ package carbon
 
 import (
 	"fmt"
-	carbonemissions "github.com/SaadKhan-BCG/CarbonPlugin/carbon-monitor/carbon_emissions"
-	errorhandler "github.com/SaadKhan-BCG/CarbonPlugin/carbon-monitor/error_handler"
 	"sync"
+
+	carbonemissions "github.com/SaadKhan-BCG/CarbonMonitor/carbon_emissions"
+	errorhandler "github.com/SaadKhan-BCG/CarbonMonitor/error_handler"
 )
 
 func ComputeCurrentCarbonConsumption(containerCarbon map[ContainerRegion]float64, container string, power float64, region string, wg *sync.WaitGroup) {

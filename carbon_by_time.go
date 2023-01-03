@@ -6,8 +6,8 @@ import (
 	"sync"
 	"time"
 
-	carbonemissions "github.com/SaadKhan-BCG/CarbonPlugin/carbon-monitor/carbon_emissions"
-	errorhandler "github.com/SaadKhan-BCG/CarbonPlugin/carbon-monitor/error_handler"
+	carbonemissions "github.com/SaadKhan-BCG/CarbonMonitor/carbon_emissions"
+	errorhandler "github.com/SaadKhan-BCG/CarbonMonitor/error_handler"
 )
 
 var region string

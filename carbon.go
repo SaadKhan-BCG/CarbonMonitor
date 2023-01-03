@@ -5,7 +5,7 @@ import (
 	"os"
 	"sync"
 
-	carbonemissions "github.com/SaadKhan-BCG/CarbonPlugin/carbon-monitor/carbon_emissions"
+	carbonemissions "github.com/SaadKhan-BCG/CarbonMonitor/carbon_emissions"
 	log "github.com/sirupsen/logrus"
 )
 

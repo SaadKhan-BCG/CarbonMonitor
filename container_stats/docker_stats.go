@@ -4,12 +4,13 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	errorhandler "github.com/SaadKhan-BCG/CarbonPlugin/carbon-monitor/error_handler"
+	"strings"
+	"sync"
+
+	errorhandler "github.com/SaadKhan-BCG/CarbonMonitor/error_handler"
 	"github.com/docker/docker/api/types"
 	"github.com/docker/docker/client"
 	log "github.com/sirupsen/logrus"
-	"strings"
-	"sync"
 )
 
 // Energy Profile taken from https://github.com/marmelab/greenframe-cli/blob/main/src/model/README.md

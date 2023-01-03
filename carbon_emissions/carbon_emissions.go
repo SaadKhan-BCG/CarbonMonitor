@@ -12,7 +12,7 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	errorhandler "github.com/SaadKhan-BCG/CarbonPlugin/carbon-monitor/error_handler"
+	errorhandler "github.com/SaadKhan-BCG/CarbonMonitor/error_handler"
 )
 
 var baseUrl string

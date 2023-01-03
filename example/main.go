@@ -1,7 +1,7 @@
 package main
 
 import (
-	carbon "github.com/SaadKhan-BCG/CarbonPlugin/carbon-monitor"
+	carbon "github.com/SaadKhan-BCG/CarbonMonitor"
 	log "github.com/sirupsen/logrus"
 )
 
